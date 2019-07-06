@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&display=swap&subset=latin-ext');
+
+body {
+    background-image: url('https://images.pexels.com/photos/301614/pexels-photo-301614.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Comfortaa', cursive;
+}
+
+#random {
+    
+    min-height: 200px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.quoteArea {
+    margin-top: 0;
+    background-color: transparent;
+    margin: -50px 20px 20px;
+    padding: 0 150px;
+}
+
+#randomQuote {
+    color: #000;
+    font-size: 15px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.app-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.twitter {
+    height: 25px;
+    width: 25px;
+}
+
+#date {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff5722;
+}
+
+.data {
+    font-size: 20px;
+    
+}
+
+h4 {
+    padding: 0 0 0 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    padding: 0 0 0 0;
+}
+
+.app-title {
+    margin-top: 20px;
+}
+
+.icons {
+    display: block;
+    margin-top: 5px;
+}
+
+.text {
+     background: rgba(255, 255, 255, 0.8); 
+
+}
+
+.ikona {
+    color: #ff5722;
+}
+
+.ikona:hover {
+    color: #311b92;
+}
+
+.content {
+    width:870px;
+    padding-left: 10px;
+}
+
+.toDo {
+    padding: 20px;
+}
+
+.card {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+.space {
+    margin-left: -10px!important;
+}
+
+#task-title {
+    padding-left: 10px;
+}
+
+.card .card-action {
+    border-top: 0;
+    margin-bottom: 0;
+}
+
+.card-content div {
+    margin-bottom: 0;
+}
+
+.collection {
+    border: none;
+}
+
+.collection-item li {
+    border: 0;
+    background-color: transparent;
+}
+
+.collection-item ul {
+    border: none;
+    background-color: transparent;
+}
+
+label {
+    color: #000!important;
+}
+
+.sp {
+    margin-left: 15px;
+}
+
+::-webkit-input-placeholder { color:#000000!important; }
+::-moz-placeholder { color:#000000!important; } /* firefox 19+ */
+:-ms-input-placeholder { color:#000000!important; } /* ie */
